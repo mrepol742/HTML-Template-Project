@@ -1,0 +1,171 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+
+body {
+background-image: url("file:///storage/928A-1714/.DROID_MJ/HTML%20Template%20Project/Walker%20Log%20In/alan.jpg");
+background-repeat: repeat-x;
+background-size: 80%;
+backface-visibility:visible;
+}
+
+center#f1 {
+padding-top: 2%;
+font-size: 38px;
+font-weight: 500;
+color: #ffffff;
+}
+
+.email {
+position: absolute;
+border-radius: 5px;
+background-color: transparent;
+color: #ffffff;
+height: 44px;
+left: 10%;
+top: 30%;
+width: 80%;
+font-size: 20px;
+text-align: center;
+outline: none;
+border: 1px solid #ffffff;
+}
+
+.e {
+position: absolute;
+background-color: transparent;
+color: #ffffff;
+font-size: 18px;
+left: 10%;
+top: 26%;
+font-weight: 600;
+}
+
+.password {
+position: absolute;
+border-radius: 5px;
+background-color: transparent;
+color: #ffffff;
+height: 44px;
+left: 10%;
+top: 46%;
+width: 80%;
+font-size: 20px;
+text-align: center;
+outline: none;
+border: 1px solid #ffffff;
+}
+
+.p {
+position: absolute;
+background-color: transparent;
+color: #ffffff;
+font-size: 18px;
+left: 10%;
+top: 42%;
+font-weight: 600;
+}
+
+.login {
+position: absolute;
+left: 10%;
+height: 48px;
+top: 58%;
+width: 80%;
+font-size: 20px;
+font-weight: 600;
+color: #ffffff;
+background-color: #4285f4;
+border-radius: 5px;
+border: 1px solid #4285f4;
+outline: none;
+}
+
+.login:hover {
+filter: opacity(0.7);
+}
+
+center#f2 {
+padding-top: 88%;
+background-color: transparent;
+color: #ffffff;
+}
+
+.line {
+position: absolute;
+left: 10%;
+color: transparent;
+background-color: #bdbdbd;
+width: 35%;
+top: 71.2%;
+height: 1px;
+}
+
+.line1 {
+position: absolute;
+right: 10%;
+color: transparent;
+background-color: #bdbdbd;
+width: 35%;
+top: 71.2%;
+height: 1px;
+}
+
+.cre {
+position: absolute;
+left: 10%;
+height: 48px;
+top: 75%;
+width: 80%;
+font-size: 20px;
+font-weight: 600;
+color: #ffffff;
+background-color: #66BB6A;
+border-radius: 5px;
+border: 1px solid #66BB6A;
+outline: none;
+}
+
+.cre:hover {
+filter: opacity(0.7);
+}
+
+.ba {
+position: absolute;
+left: 5%;
+right: 5%;
+filter: opacity(0.4);
+border-radius: 30px;
+height: 68%;
+background-color: #212121;
+top: 22%;
+}

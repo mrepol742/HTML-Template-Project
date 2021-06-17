@@ -1,0 +1,457 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+body {
+background-image: url("file:///storage/928A-1714/.DROID_MJ/HTML%20Template%20Project/Cool%20Registration/p66.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.box {
+position: absolute;
+left: 8%;
+right: 8%;
+top: 7%;
+height: 84%;
+background-color: transparent;
+color: transparent;
+box-shadow:0 0 3px 3px #303030;
+filter: opacity(0.5);
+border-radius: 5px;
+border: 2px solid #212121;
+}
+
+.box1 {
+position: absolute;
+left: 8%;
+right: 8%;
+top: 7%;
+display: none;
+height: 84%;
+background-color: transparent;
+color: transparent;
+box-shadow:0 0 3px 3px #303030;
+filter: opacity(0.5);
+border-radius: 5px;
+border: 2px solid #212121;
+}
+
+.re {
+position: absolute;
+left: 15%;
+text-transform: uppercase;
+color: #ffffff;
+background-color: transparent;
+font-size: 23px;
+font-weight: 600;
+top: 15%;
+}
+
+.un2 {
+position: absolute;
+left: 18%;
+top: 31%;
+font-size: 18px;
+font-weight: 600;
+color: #ffffff;
+filter: opacity(0.7);
+background-color: transparent;
+}
+
+.line1 {
+position: absolute;
+background-color: #ffffff;
+color: transparent;
+left: 15%;
+width: 70%;
+height: 2px;
+top: 36.5%;
+}
+
+.un {
+position: absolute; 
+left: 15%;
+width: 69%;
+height: 40px;
+outline: none;
+font-size: 19px;
+top: 28%;
+background-color: transparent;
+color: #ffffff;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+border-bottom-color: transparent;
+}
+
+.email {
+position: absolute; 
+left: 15%;
+width: 69%;
+height: 40px;
+outline: none;
+font-size: 19px;
+top: 40%;
+background-color: transparent;
+color: #ffffff;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+border-bottom-color: transparent;
+}
+
+.email2 {
+position: absolute;
+left: 18%;
+top: 43%;
+font-size: 18px;
+font-weight: 600;
+color: #ffffff;
+filter: opacity(0.7);
+background-color: transparent;
+}
+
+.line2 {
+position: absolute;
+background-color: #ffffff;
+color: transparent;
+left: 15%;
+width: 70%;
+height: 2px;
+top: 48.6%;
+}
+
+.password {
+position: absolute; 
+left: 15%;
+width: 69%;
+height: 40px;
+outline: none;
+font-size: 19px;
+top: 52%;
+background-color: transparent;
+color: #ffffff;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+border-bottom-color: transparent;
+}
+
+.password2 {
+position: absolute;
+left: 18%;
+top: 55.5%;
+font-size: 18px;
+font-weight: 600;
+color: #ffffff;
+filter: opacity(0.7);
+background-color: transparent;
+}
+
+.line3 {
+position: absolute;
+background-color: #ffffff;
+color: transparent;
+left: 15%;
+width: 70%;
+height: 2px;
+top: 60.5%;
+}
+
+.password1 {
+position: absolute; 
+left: 15%;
+width: 69%;
+height: 40px;
+outline: none;
+font-size: 19px;
+top: 64%;
+background-color: transparent;
+color: #ffffff;
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+border-bottom-color: transparent;
+}
+
+.password12 {
+position: absolute;
+left: 18%;
+top: 67.5%;
+font-size: 18px;
+font-weight: 600;
+color: #ffffff;
+filter: opacity(0.7);
+background-color: transparent;
+}
+
+.line4 {
+position: absolute;
+background-color: #ffffff;
+color: transparent;
+left: 15%;
+width: 70%;
+height: 2px;
+top: 72.6%;
+}
+
+.ch {
+position: absolute;
+top: 75%;
+left: 15%;
+}
+
+.rem {
+position: absolute;
+font-size: 16px;
+font-weight: 600;
+color: #ffffff;
+background-color: transparent;
+top: 76%;
+left: 22%;
+}
+
+.sut1 {
+position: absolute;
+left: 15%;
+width: 70%;
+display: none;
+font-weight: 600;
+background-color: #8BC34A;
+color: #ffffff;
+height: 35px;
+font-size: 18px;
+border: 2px solid #8BC34A;
+bottom: 12%;
+border-radius: 2px;
+outline: none;
+}
+
+.sut1:hover {
+filter: opacity(0.7);
+}
+
+.sut2 {
+position: absolute;
+left: 15%;
+width: 70%;
+font-weight: 600;
+background-color: #8BC34A;
+color: #ffffff;
+height: 35px;
+display: none;
+font-size: 18px;
+border: 2px solid #8BC34A;
+bottom: 12%;
+border-radius: 2px;
+outline: none;
+}
+
+.sut2:hover {
+filter: opacity(0.7);
+}
+
+.sut {
+position: absolute;
+left: 15%;
+width: 70%;
+font-weight: 600;
+background-color: #8BC34A;
+color: #ffffff;
+height: 35px;
+font-size: 18px;
+border: 2px solid #8BC34A;
+bottom: 12%;
+border-radius: 2px;
+outline: none;
+}
+
+.sut:hover {
+filter: opacity(0.7);
+}
+
+.subt {
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+background-color: #212121;
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+padding-top: 20%;
+color: #ffffff;
+}
+
+.shot {
+position: absolute;
+display: none;
+left: 20%;
+top: 30%;
+font-weight: 600;
+color: #ffffff;
+background-color: transparent;
+}
+
+.shot1 {
+position: absolute;
+display: none;
+left: 20%;
+top: 36%;
+font-weight: 600;
+color: #ffffff;
+background-color: transparent;
+}
+
+.shot2 {
+position: absolute;
+display: none;
+left: 20%;
+top: 42%;
+font-weight: 600;
+color: #ffffff;
+background-color: transparent;
+}
+
+.shot3 {
+position: absolute;
+display: none;
+left: 20%;
+top: 50%;
+font-size: 25px;
+font-weight: 600;
+color: #ffffff;
+background-color: transparent;
+}
+
+@keyframes ld {
+0%{
+margin-left: 0px;
+height: 1px;
+}
+
+10%{
+margin-left: 10px;
+}
+
+20%{
+margin-left: 0px;
+}
+
+30%{
+margin-left: 40px;
+}
+
+40%{
+margin-left: 10px;
+}
+
+50%{
+margin-left: 40px;
+height: 0px;
+}
+
+60%{
+margin-left: 0px;
+}
+
+70%{
+margin-left: 10px;
+}
+
+80%{
+margin-left: 40px;
+}
+
+90%{
+margin-left: 0px;
+}
+
+100%{
+margin-left: 10px;
+height: 2px;
+}
+}
+
+.lo2 {
+position: absolute;
+left: 10%;
+top: 24%;
+color: #ffffff;
+height: 2px;
+display: none;
+width: 68%;
+background-color: #F44336;
+animation:ld 2s linear infinite;
+animation-play-state: paused;
+}
+
+.back {
+position: absolute;
+right: 9.5%;
+height: 30px;
+top: 8%;
+display: none;
+width: 15%;
+background-color: transparent;
+color: #ffffff;
+font-weight: 600;
+font-size: 16px;
+outline: none;
+border-radius: 3px;
+border: 2px solid #ffffff;
+}
+
+.back:hover {
+filter: opacity(0.7);
+}
+
+.login {
+position: absolute;
+right: 9.5%;
+height: 30px;
+top: 8%;
+display: block;
+width: 15%;
+background-color: transparent;
+color: #ffffff;
+font-weight: 600;
+font-size: 16px;
+outline: none;
+border-radius: 3px;
+border: 2px solid #ffffff;
+}
+
+.login:hover {
+filter: opacity(0.7);
+}

@@ -1,0 +1,97 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+
+body {
+background-image: url("file:///storage/928A-1714/.DROID_MJ/HTML%20Template%20Project/MP3%20Universe/droid.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+backface-visibility:visible;
+}
+
+.block {
+position: absolute;
+left: 16.5%;
+top: 35%;
+font-size: 35px;
+font-weight: 600;
+color: #ffffff;
+text-decoration:overline;
+}
+
+.search {
+position: absolute;
+left: 5px;
+top: 6%;
+height: 35px;
+outline: none;
+background-color: #ffffff;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+width: 90%;
+border-color: #ffffff;
+border-style: solid;
+}
+
+.search1 {
+position: absolute;
+right: 5px;
+top: 5%;
+height: 47px;
+border-radius: 40px;
+width: 13%;
+font-size: 18px;
+outline: none;
+color: #ffffff;
+background-color: #4285f4;
+border: 3px solid #4285f4;
+}
+
+.search1:hover {
+background-color: #ffffff;
+color: #4285f4;
+border-color: #4285f4;
+border-width: 2px;
+}
+
+.inf {
+position: absolute;
+margin: 3%;
+color: #ffffff;
+background-color: transparent;
+top: 57.6%;
+font-weight: 500;
+line-height: 20px;
+font-size: 14px;
+}

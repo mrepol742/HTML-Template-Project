@@ -1,0 +1,687 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+body { 
+background-color: #212121;
+}
+
+.play {
+position: absolute;
+top: 70%;
+display: block;
+left: 38%;
+background-color: #000000;
+border-radius: 50%;
+outline: none;
+height: 16.5%;
+width: 24%;
+border: 10px solid #000000;
+}
+
+.play:hover {
+outline: none;
+background-color: #000000;
+filter: opacity(.5);
+}
+
+.img1 {
+height: 70%;
+}
+
+.img2 {
+height: 50%;
+}
+
+.paused {
+position: absolute;
+top: 70.2%;
+display: none;
+left: 38.3%;
+background-color: #000000;
+border-radius: 50%;
+outline: none;
+height: 16%;
+width: 23.5%;
+border: 10px solid transparent;
+}
+
+.paused:hover {
+outline: none;
+background-color: #000000;
+filter: opacity(.5);
+}
+
+.nav {
+position: absolute;
+background-color: #212121;
+color: transparent;
+left: 2%;
+right: 2%;
+height: 7%;
+border-radius: 5px;
+border: 3px solid #212121;
+display: block;
+bottom: 1%;
+}
+
+.nav1 {
+position: absolute;
+background-color: #212121;
+color: transparent;
+left: 2%;
+right: 2%;
+height: 7%;
+border-radius: 5px;
+border: 3px solid #212121;
+display: none;
+bottom: 1%;
+}
+
+.img {
+position: absolute;
+height: 55%;
+width: 82%;
+border-radius: 10px;
+margin-left: 6.5%;
+}
+
+.music {
+height: 100%;
+width: 24.2%;
+outline: none;
+border-radius: 5px;
+display: inline-block;
+border: 1px solid transparent;
+background-color: transparent;
+}
+
+.music:hover {
+background-color: #616161;
+filter: opacity(0.7);
+}
+
+.music1 {
+height: 100%;
+width: 24.2%;
+outline: none;
+border-radius: 5px;
+border: 1px solid transparent;
+background-color: transparent;
+}
+
+.music1:hover {
+background-color: #212121;
+filter: opacity(0.7);
+}
+
+.not {
+height: 30px;
+}
+
+.notc {
+height: 25px;
+}
+
+.search {
+position: absolute;
+left: 12%;
+width: 85%;
+height: 50px;
+font-size: 18px;
+display: none;
+font-weight: 500;
+border-top-left-radius: 0px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 0px;
+border-color: #000000;
+border-style: solid;
+border-bottom-right-radius: 10px;
+background-color: #000000;
+color: #ffffff;
+outline: none;
+}
+
+.sr {
+position: absolute;
+color: #ffffff;
+background-color: transparent;
+left: 15%;
+font-size: 18px;
+display: none;
+top: 4.5%;
+}
+
+.searchL {
+position: absolute;
+border-top-left-radius: 10px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 10px;
+border-color: #000000;
+border-style: solid;
+height: 50px;
+background-color: #000000;
+display: none;
+outline: none;
+border-bottom-right-radius: 0px;
+}
+
+.close {
+position: absolute;
+right: 2%;
+height: 50px;
+border-top-left-radius: 0px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 0px;
+border-color: #000000;
+border-style: solid;
+border-bottom-right-radius: 10px;
+background-color: #000000;
+outline: none;
+display: none;
+}
+
+.sen {
+position: absolute;
+background-color: green;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+color: transparent;
+background-color: transparent;
+display: block;
+}
+
+.sheet {
+position: absolute;
+left: 2%;
+right: 2%;
+height: 40%;
+top: 48%;
+background-color: #212121;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+display: none;
+border-style: solid;
+border-color: #212121;
+}
+
+.name {
+position: absolute;
+color: #ffffff;
+background-color: transparent;
+font-weight: 600;
+font-family: DROID_MJAlternatesMedium;
+font-size: 22px;
+left: 30%;
+}
+
+.terms {
+position: absolute;
+background-color: transparent;
+outline: none;
+color: #ffffff;
+border-radius: 0px;
+border: 0px solid transparent;
+font-size: 18px;
+font-weight: 500;
+top: 35%;
+left: 5%;
+}
+
+.changelog {
+position: absolute;
+background-color: transparent;
+outline: none;
+color: #ffffff;
+border-radius: 0px;
+border: 0px solid transparent;
+font-size: 18px;
+font-weight: 500;
+top: 50%;
+left: 5%;
+}
+
+.help {
+position: absolute;
+background-color: transparent;
+outline: none;
+color: #ffffff;
+border-radius: 0px;
+border: 0px solid transparent;
+font-size: 18px;
+font-weight: 500;
+top: 65%;
+left: 5%;
+}
+
+.about {
+position: absolute;
+background-color: transparent;
+outline: none;
+color: #ffffff;
+border-radius: 0px;
+border: 0px solid transparent;
+font-size: 18px;
+font-weight: 500;
+top: 80%;
+left: 5%;
+}
+
+.version {
+position: absolute;
+color: #ffffff;
+background-color: transparent;
+font-weight: 600;
+font-size: 13px;
+left: 41%;
+top: 12%;
+}
+
+.visual {
+position: absolute;
+top: 60%;
+left: 2%;
+width: 17%;
+height: 35px;
+background-color: #303030;
+border-radius: 5px;
+border: 1px solid #303030;
+display: block;
+filter: opacity(0.8);
+outline: none;
+}
+
+.visual1 {
+position: absolute;
+top: 60%;
+left: 2%;
+width: 17%;
+height: 35px;
+display: none;
+background-color: #303030;
+border-radius: 5px;
+border: 1px solid #303030;
+outline: none;
+}
+
+span {
+background-color: #F44336;
+width: 30px;
+height: 60px;
+animation-iteration-count: infinite;
+animation-iteration-function: linear;
+animation-play-state: paused;
+position: absolute;
+display: none;
+box-shadow: 1px 1px 1px #424242;
+}
+
+span.bar1{
+background-color: #F44336;
+animation: ex1 1.9s linear infinite ;
+top: 200px ;
+animation-play-state: paused;
+left: 60px ;
+border-radius: 5px;
+}
+
+span.bar2{
+background-color: #FF9800;
+animation: ex2 2.1s linear infinite;
+top: 200px ;
+animation-play-state: paused;
+left: 95px ;
+border-radius: 5px;
+}
+
+span.bar3{
+background-color: #FFEB3B;
+animation: ex3 2.3s linear infinite;
+top: 200px ;
+animation-play-state: paused;
+left: 130px ;
+border-radius: 5px;
+}
+
+span.bar4{
+background-color: #CDDC39;
+animation: ex4 1.4s linear infinite;
+top: 200px;
+left: 165px ;
+animation-play-state: paused;
+border-radius: 5px;
+}
+
+span.bar5{
+background-color: #03A9F4;
+animation: ex5 1.7s linear infinite;
+top: 200px;
+left: 200px ;
+animation-play-state: paused;
+border-radius: 5px;
+}
+
+span.bar6{
+background-color: #2196F3;
+animation: ex6 2.0s linear infinite;
+top: 200px;
+animation-play-state: paused;
+border-radius: 5px;
+left: 235px ;
+}
+
+span.bar7{
+background-color: #9C27B0;
+animation: ex7 1.8s linear infinite;
+top: 200px;
+border-radius: 5px;
+animation-play-state: paused;
+left: 270px;
+}
+
+@keyframes ex1{
+50% { 
+background-color: #9C27B0;
+top: 100px; 
+height: 160px;
+}
+}
+
+@keyframes ex2{
+50% {
+background-color: #2196F3;
+top: 50px;
+height: 210px;
+}
+}
+
+@keyframes ex3{
+50% {
+background-color: #03A9F4;
+top: 10px; 
+height: 250px;
+}
+}
+
+@keyframes ex4{
+50% {
+background-color: #4CAF50;
+top: 100px; 
+height: 160px;
+}
+}
+
+@keyframes ex5{
+50% {
+background-color: #FFEB3B;
+top: 50px; 
+height: 210px;
+}
+}
+
+@keyframes ex6{
+50% {
+background-color: #FF9800;
+top: 150px; 
+height:110px;
+}
+}
+
+@keyframes ex7{
+50% {
+background-color: #F44336;
+top: 50px; 
+height: 210px;
+}
+}
+
+.about1 {
+position: absolute;
+left: 8.5%;
+text-align: center;
+background-color: #212121;
+color: #ffffff;
+border-radius: 10px;
+border: 2px solid #212121;
+top: 20%;
+width: 80.5%;
+height: 50%;
+display: none;
+}
+
+.name1 {
+position: absolute;
+color: #ffffff;
+background-color: transparent;
+font-weight: 600;
+font-family: DROID_MJAlternatesMedium;
+font-size: 22px;
+left: 28%;
+}
+
+.subt {
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+background-color: #212121;
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+padding-top: 20%;
+color: #ffffff;
+}
+
+.yr {
+position: absolute;
+left: 40%;
+font-size: 20px;
+font-weight: 500;
+top: 10%;
+color: #ffffff;
+background-color: transparent;
+}
+
+.yr1 {
+position: absolute;
+margin-left: 37%;
+margin-right: 37%;
+font-size: 19px;
+font-weight: 500;
+top: 20%;
+color: #ffffff;
+background-color: transparent;
+}
+
+.dev {
+position: absolute;
+margin-left: 13%;
+margin-right: 13%;
+font-family: DROID_MJMedium;
+font-size: 18px;
+top: 31%;
+color: #bdbdbd;
+background-color: transparent;
+}
+
+.dev1 {
+position: absolute;
+font-size: 20px;
+font-weight: 600;
+color: #ffffff;
+background-color: transparent;
+top: 42%;
+}
+
+.ok {
+position: absolute;
+bottom: 4%;
+right: 4%;
+background-color: transparent;
+color: #ffffff;
+border-radius: 2px;
+font-size: 17px;
+outline: none;
+font-family: DROID_MJMedium;
+font-weight: 400;
+border: 1px solid transparent;
+}
+
+.artist {
+position: absolute;
+font-weight: 500;
+background-color: #000000;
+color: #ffffff;
+border-radius: 3px;
+font-family: DROID_MJRegular;
+top: 48%;
+left: 10%;
+padding-top: 7px;
+font-size: 17px;
+padding-left: 7px;
+padding-right: 7px;
+padding-bottom: 7px;
+}
+
+.title {
+position: absolute;
+left: 10%;
+top: 41%;
+padding-top: 7px;
+padding-left: 7px;
+border-radius: 3px;
+font-size: 17px;
+font-weight: 600;
+font-family: DROID_MJMedium;
+padding-right: 7px;
+background-color: #000000;
+color: #ffffff;
+padding-bottom: 7px;
+}
+
+.sen1 {
+position: absolute;
+width: 100%;
+height: 100%;
+filter: blur(50px);
+}
+
+.trylk {
+position: absolute;
+left: 0px;
+right: 0px;
+bottom: 0px;
+top: 0px;
+background-color: #212121;
+color: #ffffff;
+filter: opacity(0.7);
+display: none;
+}
+
+.sba {
+position: absolute;
+top: 0px;
+right: 0px;
+left: 0px;
+height: 13.5%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-color: #263238;
+color: transparent;
+display: none;
+}
+
+.sb1 {
+position: absolute;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+background-color: #212121;
+filter: opacity(0.7);
+display: none;
+color: transparent;
+}
+
+.bacV {
+position: absolute;
+left: 17%;
+text-align: center;
+background-color: #212121;
+color: #ffffff;
+border-top-left-radius: 0px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 5px;
+border-style: solid;
+border-color: #212121;
+border-width: 2px;
+top: 37%;
+width: 80.5%;
+height: 12%;
+display: none;
+}
+
+.try {
+position: absolute;
+left: 20%;
+top: 41%;
+width: 70%;
+display: none;
+}
+
+.notVo {
+height: 45px;
+padding-top: 19%;
+padding-left: 10%;
+}
+
+.vo {
+position: absolute;
+top: 37%;
+height: 12%;
+background-color: #212121;
+color: transparent;
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+border-style: solid;
+display: none;
+border-color: #212121;
+border-width: 2px;
+width: 13.5%;
+}

@@ -1,0 +1,419 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+margin: 0px;
+padding: 0px;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+.mid {
+position: absolute;
+font-size: 30px;
+font-weight: 600;
+font-family: DROID_MJAlternatesMedium;
+color: #ffffff;
+left: 1%;
+top: 2%;
+}
+
+.ba {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+height: 55%;
+color: transparent;
+background-color: #4285f4;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+
+.email {
+position: absolute;
+left: 33px;
+width: 80%;
+height: 44px;
+border-bottom-color: #ffffff;
+border-left-color: #ffffff;
+border-right-color: #ffffff;
+border-top-color: transparent;
+background-color: transparent;
+border-bottom-style: solid;
+border-left-style: solid;
+outline: none;
+border-right-style: solid;
+color: #ffffff;
+font-size: 18px;
+text-align: center;
+font-weight: 600;
+border-radius: 2px;
+top: 35%;
+}
+
+.top1 {
+position: absolute;
+color: #ffffff;
+font-weight: 600;
+font-size: 22px;
+left: 20%;
+top: 33%;
+}
+
+.password {
+position: absolute;
+left: 33px;
+width: 80%;
+height: 44px;
+border-bottom-color: #4285f4;
+border-left-color: transparent;
+border-right-color: transparent;
+border-top-color: transparent;
+background-color: transparent;
+border-bottom-style: solid;
+border-left-style: solid;
+font-size: 18px;
+color: #212121;
+text-align: center;
+font-weight: 600;
+outline: none;
+border-right-style: solid;
+border-radius: 2px;
+top: 50%;
+}
+
+.top {
+position: absolute;
+color: #ffffff;
+font-weight: 600;
+font-size: 22px;
+left: 20%;
+top: 48.3%;
+}
+
+.type {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+width: 43%;
+right: 37px;
+height: 2px;
+top: 50.1%;
+}
+
+.cool {
+position: absolute;
+left: 34.6px;
+color: transparent;
+background-color: #ffffff;
+height: 2px;
+top: 50.1%;
+width: 9.5%;
+}
+
+.right {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+height: 24.5px;
+width: 2px;
+right: 35.5px;
+top: 50.2%;
+}
+
+.left {
+position: absolute;
+color: transparent;
+background-color: #4285f4;
+height: 24px;
+width: 2px;
+right: 35.5px;
+top: 55%;
+}
+
+.right1 {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+height: 24.5px;
+width: 2px;
+left: 33px;
+top: 50.2%;
+}
+
+.g {
+position: absolute;
+font-family: DROID_MJMedium;
+color: #ffffff;
+font-weight: 600;
+left: 54%;
+top: 86%;
+font-size: 35px;
+}
+
+.facebook:hover {
+background-color: #212121;
+border: 3px solid #212121;
+}
+
+.g:hover {
+background-color: transparent;
+color: #212121;
+}
+
+.google:hover {
+background-color: #212121;
+border: 3px solid #212121;
+}
+
+.f:hover {
+background-color: transparent;
+color: #212121;
+}
+
+.left1 {
+position: absolute;
+color: transparent;
+background-color: #4285f4;
+height: 24px;
+width: 2px;
+left: 33px;
+top: 55%;
+}
+
+.line {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+width: 28%;
+right: 35.5px;
+height: 2px;
+top: 35%;
+}
+
+a {
+  color: #303030;
+}
+
+a:link {
+  color: #303030;
+}
+
+a:visited {
+  color: #303030;
+}
+
+a:hover {
+  color: #DB4437;
+}
+
+a:active {
+  color: #F4B400;
+}
+
+.line1 {
+position: absolute;
+left: 33px;
+color: transparent;
+background-color: #ffffff;
+height: 2px;
+top: 35%;
+width: 9.5%;
+}
+
+.login {
+position: absolute;
+left: 25%;
+background-color: #4285f4;
+color: #ffffff;
+top: 65.5%;
+font-size: 20px;
+font-weight: 600;
+width: 50%;
+height: 44px;
+border: 2px solid #4285f4;
+}
+
+.login:hover {
+background-color: #ffffff;
+color: #4285f4;
+border: 2px solid #4285f4;
+font-size: 21px;
+outline: none;
+}
+
+.line3 {
+position: absolute;
+right: 0px;
+color: transparent;
+background-color: #212121;
+height: 2px;
+opacity: .4;
+top: 69.5%;
+width: 15%;
+}
+
+.line4 {
+position: absolute;
+left: 0px;
+color: transparent;
+background-color: #212121;
+height: 2px;
+opacity: .4;
+top: 69.5%;
+width: 15%;
+}
+
+.cre2 {
+position: absolute;
+right: 1%;
+top: 2%;
+width: 32%;
+text-align: center;
+height: 4%;
+border-radius: 3px;
+outline: none;
+border: 2px solid #fff;
+padding-top: 5px;
+background-color: #ffffff;
+}
+
+.cre2:hover {
+background-color: #212121;
+border-radius: 2px;
+outline: none;
+}
+
+.back {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+border-radius: 15px;
+height: 28px;
+top: 52.5%;
+width: 68%;
+left: 15.5%;
+}
+
+.not {
+position: absolute;
+left: 15px;
+top: 87%;
+color: #616161;
+font-weight: 600;
+}
+
+.f {
+position: absolute;
+font-family: DROID_MJMedium;
+color: #ffffff;
+font-weight: 600;
+left: 32.5%;
+top: 86%;
+font-size: 35px;
+}
+
+.google {
+position: absolute;
+width: 12%;
+height: 8%;
+background-color: #F44336;
+border-radius: 3px;
+outline: none;
+border: 3px solid #F44336;
+top: 85.1%;
+left: 30%;
+}
+
+.facebook {
+position: absolute;
+width: 12%;
+height: 8%;
+background-color: #2196F3;
+border-radius: 3px;
+outline: none;
+border: 3px solid #2196F3;
+top: 85.1%;
+left: 50%;
+}
+
+.ba2 {
+position: absolute;
+font-size: 33px;
+background-color: #ffffff;
+height: 30px;
+width: 9%;
+padding: 20px;
+left: 40%;
+top: 14.5%;
+font-weight: 600;
+color: #616161;
+border-radius: 40px;
+text-align: center;
+}
+
+.tap {
+position: absolute;
+left: 0px;
+right: 0px;
+height: 2px;
+color: transparent;
+background-color: #616161;
+opacity: .2;
+top: 9.5%;
+animation:ld 2s linear infinite;
+animation-play-state:paused;
+}
+
+@keyframes ld {
+0%{
+margin-left: 0;
+}
+
+20%{
+margin-left: 82px;
+}
+
+40%{
+margin-left: 164px
+}
+
+60%{
+margin-left: 246px;
+}
+
+80%{
+margin-left: 328px;
+}
+
+100%{
+margin-left: 480px;
+}
+}

@@ -1,0 +1,489 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+.top {
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+height: 10%;
+background-color: #4285F4;
+color: transparent;
+}
+
+.cre {
+position: absolute;
+right: 2%;
+top: 1.5%;
+height: 7%;
+width: 30%;
+background-color: #ffffff;
+color: #616161;
+border-radius: 3px;
+outline: none;
+border: 1px solid #ffffff;
+font-size: 13px;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 400;
+}
+
+.cre:hover {
+filter: opacity(0.7); 
+}
+
+.login {
+position: absolute;
+left: 35%;
+top: 55%;
+height: 7%;
+width: 30%;
+background-color: #4285F4;
+color: #FFFFFF;
+border-radius: 3px;
+outline: none;
+border: 1px solid #4285F4;
+font-size: 13px;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 400;
+}
+
+.login:hover {
+filter: opacity(0.7); 
+}
+
+.name {
+position: absolute;
+left: 2%;
+top: 2%;
+background-color: transparent;
+color: #ffffff;
+font-size: 32px;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 600;
+}
+
+.breakL1 {
+position: absolute;
+left: 0;
+width: 28%;
+height: 1px;
+background-color: #bdbdbd;
+top: 25%;
+color: transparent;
+}
+
+.breakR1 {
+position: absolute;
+right: 0%;
+width: 28%;
+height: 1px;
+background-color: #bdbdbd;
+top: 25%;
+color: transparent;
+}
+
+.bottom {
+position: absolute;
+left: 32.5%;
+top: 20%;
+background-color: transparent;
+color: #ffffff;
+font-size: 30px;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 400;
+}
+
+.email1 {
+position: absolute;
+color: #616161;
+font-weight: 600;
+font-size: 16px;
+top: 20%;
+left: 10%;
+}
+
+.password1 {
+position: absolute;
+color: #616161;
+font-weight: 600;
+font-size: 16px;
+top: 36%;
+left: 10%;
+}
+
+.email {
+position: absolute;
+left: 10%;
+width: 80%;
+height: 44px;
+border: 2px solid #616161;
+border-radius: 5px;
+outline: none;
+font-family: DROID_MJRegular;
+font-size: 15px;
+top: 24%;
+font-weight: 400;
+background-color: #ffffff;
+color: #616161;
+}
+
+.password {
+position: absolute;
+left: 10%;
+width: 80%;
+height: 44px;
+border: 2px solid #616161;
+border-radius: 5px;
+outline: none;
+top: 40%;
+font-family: DROID_MJRegular;
+font-size: 15px;
+font-weight: 400;
+background-color: #ffffff;
+color: #616161;
+}
+
+.breakL {
+position: absolute;
+left: 5%;
+width: 25%;
+height: 2px;
+background-color: #bdbdbd;
+top: 58.1%;
+color: transparent;
+}
+
+.breakR {
+position: absolute;
+right: 5%;
+width: 25%;
+height: 2px;
+background-color: #bdbdbd;
+top: 58.1%;
+color: transparent;
+}
+
+.forgot {
+position: absolute;
+left: 32.5%;
+top: 65%;
+height: 7%;
+width: 35%;
+background-color: transparent;
+color: #4285F4;
+border-radius: 3px;
+outline: none;
+border: 1px solid transparent;
+font-size: 13px;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 400;
+}
+
+.forgot:hover {
+filter: opacity(0.7); 
+}
+
+.nav {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 90%;
+height: 60%;
+background-color: #37474F;
+border: 1px solid #37474F;
+border-radius: 0px;
+color: #ffffff;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #bdbdbd;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+.home {
+position: absolute;
+left: 43%;
+top: 40%;
+font-size: 18px;
+}
+
+.help {
+position: absolute;
+left: 43%;
+font-size: 18px;
+top: 53%;
+}
+
+.terms {
+position: absolute;
+left: 43%;
+font-size: 18px;
+top: 67%;
+}
+
+.about {
+position: absolute;
+left: 43%;
+font-size: 18px;
+top: 80%;
+}
+
+.dev {
+position: absolute;
+top: 95%;
+font-size: 15px;
+left: 23%;
+}
+
+.background {
+position: absolute;
+left: 5%;
+right: 5%;
+top: 25%;
+height: 45%;
+background: #245A64;
+border: 2px solid #245A64;
+border-radius: 10px;
+display: none;
+}
+
+.back {
+position: absolute;
+left: 0%;
+top: 0%;
+bottom: 0%;
+right: 0%;
+background-color: #000000;
+display: none;
+color: transparent;
+filter: opacity(0.4);
+}
+
+.sendMail {
+position: absolute;
+font-family: DROID_MJMedium;
+font-size: 18px;
+font-weight: 600;
+right: 7.5%;
+border: 0px solid transparent;
+top: 64%;
+outline: none;
+display: none;
+color: #ffffff;
+background-color: transparent;
+}
+
+.cancel {
+position: absolute;
+font-family: DROID_MJMedium;
+font-size: 18px;
+font-weight: 600;
+right: 40%;
+border: 0px solid transparent;
+top: 64%;
+outline: none;
+display: none;
+color: #ffffff;
+background-color: transparent;
+}
+
+.title {
+position: absolute;
+left: 8%;
+color: #ffffff;
+background-color: transparent;
+font-family: DROID_MJAlternatesMedium;
+font-size: 20px;
+top: 27%;
+display: none;
+}
+
+.emailF {
+position: absolute;
+left: 9.5%;
+width: 80%;
+height: 44px;
+border: 0px solid transparent;
+border-radius: 5px;
+outline: none;
+font-family: DROID_MJRegular;
+font-size: 15px;
+top: 46%;
+font-weight: 400;
+background-color: #f5f5f5;
+display: none;
+color: #616161;
+}
+
+.emailF1 {
+position: absolute;
+color: #bdbdbd;
+font-weight: 600;
+font-size: 16px;
+display: none;
+top: 39%;
+left: 10%;
+}
+
+.emailS {
+position: fixed;
+left: 0%;
+right: 0%;
+top: 92%;
+height: 8%;
+background-color: #212121;
+color: transparent;
+display: none;
+}
+
+.emailS1 {
+position: fixed;
+left: 3%;
+font-size: 16px;
+bottom: 2.3%;
+font-family: DROID_MJMedium;
+font-weight: 400;
+background-color: transparent;
+color: #ffffff;
+display: none;
+}
+
+.dismiss {
+position: fixed;
+right: 3%;
+bottom: 2%;
+background-color: transparent;
+color: #F44336;
+text-transform: uppercase;
+font-family: DROID_MJMedium;
+font-size: 16px;
+font-weight: 600;
+display: none;
+border: 0px solid transparent;
+outline: none;
+}
+
+.breakL2 {
+position: absolute;
+left: 0%;
+width: 8%;
+height: 1px;
+background-color: #4285F4;
+top: 8%;
+color: transparent;
+display: none;
+}
+
+.breakR2 {
+position: absolute;
+right: 0%;
+width: 52%;
+height: 1px;
+background-color: #4285F4;
+top: 8%;
+display: none;
+color: transparent;
+}
+
+
+.welcome {
+position: absolute;
+left: 10%;
+top: 5%;
+font-size: 30px;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 400;
+color: #212121;
+display: none;
+background-color: transparent;
+}
+
+.you {
+position: absolute;
+margin: 10%;
+font-family: DROID_MJMedium;
+font-size: 18px;
+font-weight: 400;
+color: #303030;
+top: 12%;
+display: none;
+}
+
+.you1 {
+position: absolute;
+margin: 10%;
+font-family: DROID_MJRegular;
+font-size: 18px;
+font-weight: 400;
+color: #303030;
+top: 20%;
+display: none;
+}
+
+.continue {
+position: absolute;
+left: 20%;
+height: 40px;
+width: 60%;
+background-color: #4285F4;
+color: #ffffff;
+border: 2px solid #4285F4;
+border-radius: 30px;
+font-family: DROID_MJAlternatesMedium;
+font-size: 18px;
+top: 65%;
+outline: none;
+font-weight: 600;
+display: none;
+}
+
+.continue:hover {
+filter: opacity(.9);
+border-radius: 5px;
+outline: none;
+}

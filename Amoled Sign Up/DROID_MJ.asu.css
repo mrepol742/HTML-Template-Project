@@ -1,0 +1,344 @@
+/* DROID_MJ © 2019 */
+/* Last Modification: Feb 10 2019 */
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+body {
+background-image: url("file:///storage/emulated/0/AmoledWallpapers/98799_papers.co-ad33-one-circle-omni-blue-33-iphone6-wallpaper.jpg");
+background-size: 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.aml {
+position: absolute;
+margin-top: 10px;
+left: 5px;
+background-color: transparent;
+line-height: 40px;
+margin-left: -5px;
+margin-top: -5px;
+font-size: 30px;
+width: 100%;
+}
+
+.logo {
+color: #FFFFFF;
+text-align: center;
+font-size: 35px;
+font-weight: 900;
+}
+
+.poe {
+position: absolute;
+left: 20px;
+font-weight: 600;
+color: #FFFFFF;
+margin-top: 18%;
+}
+
+.email {
+position: absolute;
+left: 20px;
+margin-top: 23%;
+height: 35px;
+width: 89%;
+border: 2px solid #FFFFFF;
+background-color: transparent;
+outline: none;
+border-radius: 3px;
+color: #ffffff;
+}
+
+.pas{
+position: absolute;
+color: #FFFFFF;
+font-weight: 600;
+left: 20px;
+margin-top: 36%;
+}
+
+.password {
+position: absolute;
+left: 20px;
+margin-top: 41%;
+height: 35px;
+border: 2px solid #ffffff;
+background-color: transparent;
+border-radius: 3px;
+width: 89%;
+color: #ffffff;
+outline: none;
+}
+
+.pho{
+position: absolute;
+color: #FFFFFF;
+font-weight: 600;
+left: 20px;
+margin-top: 54%;
+}
+
+.phone {
+position: absolute;
+left: 20px;
+margin-top: 59%;
+height: 35px;
+border: 2px solid #ffffff;
+background-color: transparent;
+border-radius: 3px;
+color: #ffffff;
+width: 89%;
+outline: none;
+}
+
+.gen {
+position: absolute;
+color: #FFFFFF;
+font-weight: 600;
+left: 20px;
+margin-top: 72%;
+}
+
+.male {
+position: absolute;
+left: 20px;
+margin-top: 76%;
+background-color: #ffffff;
+height: 20px;
+}
+
+.male1 {
+position: absolute;
+left: 14%;
+margin-top: 77%;
+height: 20px;
+background-color: transparent;
+color: #ffffff;
+}
+
+.girl {
+position: absolute;
+left: 40%;
+margin-top: 76%;
+height: 20px;
+background-color: transparent;
+color: #ffffff;
+}
+
+.girl1 {
+position: absolute;
+left: 48%;
+margin-top: 77%;
+height: 20px;
+background-color: transparent;
+color: #ffffff;
+}
+
+.bir {
+position: absolute;
+color: #FFFFFF;
+font-weight: 600;
+left: 20px;
+margin-top: 83%;
+}
+
+.birthday {
+position: absolute;
+left: 20px;
+margin-top: 88%;
+background-color: transparent;
+border: 2px solid #FFFFFF;
+border-radius: 3px;
+width: 40%;
+outline: none;
+color: #ffffff;
+}
+
+.nep {
+position: absolute;
+color: #FFFFFF;
+font-weight: 600;
+left: 20px;
+margin-top: 95%;
+}
+
+.new {
+position: absolute;
+left: 20px;
+margin-top: 100%;
+height: 35px;
+border: 2px solid #ffffff;
+outline: none;
+border-radius: 3px;
+color: #ffffff;
+background-color: transparent;
+width: 89%;
+}
+
+a {
+  color: #4285F4;
+}
+
+a:link {
+  color: #4285F4;
+}
+
+a:visited {
+  color: #4285F4;
+}
+
+a:hover {
+  color: #4285F4;
+}
+
+a:active {
+  color: #4285F4;
+}
+
+.textV {
+position: absolute;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 115%;
+font-size: 13px;
+color: #616161;
+font-weight: 500;
+}
+
+.textV1 {
+position: absolute;
+padding-left: 20px;
+padding-right: 20px;
+color: #616161;
+font-weight: 500;
+margin-top: 130%;
+font-size: 13px;
+}
+
+.sub {
+position: absolute;
+left: 25%;
+width: 50%;
+height: 30px;
+background-color: #4285F4;
+color: #FFFFFF;
+outline: none;
+margin-top: 170%;
+border: 2px solid #4285F4;
+border-radius: 3px;
+}
+
+.too {
+position: absolute;
+text-align: center;
+margin-top: 155%;
+font-weight: 500;
+left: 25%;
+}
+
+.ba {
+position: absolute;
+left: -4px;
+right: -4px;
+margin-top: 142%;
+background-color: #000000;
+color: transparent;
+line-height: 110px;
+width: 101%;
+}
+
+.la1 {
+position: absolute;
+left: 10px;
+margin-top: 145%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la2 {
+position: absolute;
+left: 10px;
+margin-top: 150%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la3 {
+position: absolute;
+left: 10px;
+margin-top: 155%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la4 {
+position: absolute;
+left: 48%;
+margin-top: 145%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la5 {
+position: absolute;
+left: 48%;
+margin-top: 150%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.pl {
+position: absolute;
+left: 48%;
+margin-top: 155%;
+font-size: 18px;
+font-weight: 600;
+color: #616161;
+border: 1px solid #616161;
+text-align: center;
+width: 15px;
+}
+
+.we {
+position: absolute;
+left: 10px;
+margin-top: 160%;
+font-size: 12px;
+font-weight: 600;
+color: #FFFFFF;
+}

@@ -1,0 +1,251 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+body {
+background-image: url("file:///storage/928A-1714/DROID_MJ/HTML%20Template%20Project/Material%20Log%20In/oo.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+backface-visibility:visible;
+}
+
+.a {
+position: absolute;
+left: 5%;
+right: 5%;
+top: 5%;
+bottom: 5%;
+background-color: #212121;
+color: #ffffff;
+filter: opacity(0.6);
+border-radius: 30px;
+}
+
+.ba2 {
+position: absolute;
+font-size: 33px;
+background-color: #ffffff;
+height: 30px;
+width: 9%;
+padding: 20px;
+left: 40%;
+top: 9%;
+font-weight: 600;
+color: #616161;
+border-radius: 40px;
+text-align: center;
+}
+
+.email {
+position: absolute;
+left: 10%;
+width: 80%;
+height: 44px;
+outline: none;
+top: 30%;
+border-radius: 2px;
+border-bottom-color: #ffffff;
+border-left-color: #ffffff;
+border-right-color: #ffffff;
+border-top-color: transparent;
+background-color: transparent;
+color: #ffffff;
+font-size: 19px;
+font-weight: 600;
+text-align: center;
+border-style: solid;
+}
+
+.em {
+position: absolute;
+color: #ffffff;
+background-color: transparent;
+font-size: 19px;
+font-weight: 600;
+left: 20%;
+top: 28.5%;
+}
+
+.line {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+height: 2px;
+left: 10%;
+width: 9%;
+top: 30%;
+}
+
+.line1 {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+height: 2px;
+right: 9%;
+width: 35%;
+top: 30%;
+}
+
+.pa {
+position: absolute;
+color: #ffffff;
+background-color: transparent;
+font-size: 19px;
+font-weight: 600;
+left: 20%;
+top: 42%;
+}
+
+.password {
+position: absolute;
+left: 10%;
+width: 80%;
+height: 44px;
+outline: none;
+top: 43.6%;
+border-radius: 2px;
+border-bottom-color: #ffffff;
+border-left-color: #ffffff;
+border-right-color: #ffffff;
+border-top-color: transparent;
+background-color: transparent;
+color: #ffffff;
+font-size: 19px;
+font-weight: 600;
+text-align: center;
+border-style: solid;
+}
+
+.line2 {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+height: 2px;
+left: 10%;
+width: 9%;
+top: 43.5%;
+}
+
+.line3 {
+position: absolute;
+color: transparent;
+background-color: #ffffff;
+height: 2px;
+right: 9%;
+width: 48%;
+top: 43.5%;
+}
+
+.login {
+position: absolute;
+color: #ffffff;
+background-color: #42A5F5;
+border-radius: 2px;
+border: 2px solid #42A5F5;
+left: 10%;
+height: 50px;
+top: 57.5%;
+width: 81%;
+outline: none;
+font-size: 19px;
+font-weight: 600;
+}
+
+.login:hover {
+background-color: #212121;
+color: #42A5F5;
+outline: none;
+border: 2px solid #212121;
+filter: opacity(0.7);
+}
+
+.or {
+position: absolute;
+left: 48%;
+top: 70%;
+color: #ffffff;
+background-color: transparent;
+font-size: 19px;
+font-weight: 600;
+}
+
+.left {
+position: absolute;
+color: transparent;
+background-color: #bdbdbd;
+height: 2px;
+left: 10.5%;
+top: 71.7%;
+width: 35%;
+}
+
+.right {
+position: absolute;
+color: transparent;
+background-color: #bdbdbd;
+height: 2px;
+right: 9.5%;
+top: 71.7%;
+width: 35.5%;
+}
+
+.cre2 {
+position: absolute;
+color: #ffffff;
+background-color: #66BB6A;
+border-radius: 2px;
+border: 2px solid #66BB6A;
+left: 10%;
+height: 50px;
+top: 76%;
+width: 81%;
+outline: none;
+font-size: 19px;
+font-weight: 600;
+}
+
+.cre2:hover {
+background-color: #212121;
+color: #66BB6A;
+outline: none;
+border: 2px solid #212121;
+filter: opacity(0.7);
+}
+
+.foo {
+position: absolute;
+left: 35%;
+font-size: 14px;
+font-weight: 400;
+bottom: 5.5%;
+color: #bdbdbd;
+background-color: transparent;
+}

@@ -1,0 +1,242 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+body {
+background-image: url("file:///storage/928A-1714/.DROID_MJ/HTML%20Template%20Project/Minimalist%20Log%20In/p11.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.email {
+position: absolute;
+left: 10%;
+top: 10%;
+width: 78%;
+height: 44px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-color: #FFFFFF;
+border-left-color: #FFFFFF;
+border-right-color: #FFFFFF;
+border-top-color: #FFFFFF;
+border-bottom-style: solid;
+border-top-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+background-color: transparent;
+outline: none;
+color: #FFFFFF;
+font-size: 19px;
+}
+
+.password {
+position: absolute;
+left: 10%;
+top: 19.4%;
+width: 78%;
+height: 44px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-color: #FFFFFF;
+border-left-color: #FFFFFF;
+border-right-color: #FFFFFF;
+border-top-color: #FFFFFF;
+border-bottom-style: solid;
+border-top-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+background-color: transparent;
+outline: none;
+color: #FFFFFF;
+font-size: 19px;
+}
+
+.but {
+position: absolute;
+left: 10%;
+width: 79.2%;
+height: 50px;
+top: 28.8%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-color: #FFFFFF;
+border-left-color: #FFFFFF;
+border-right-color: #FFFFFF;
+border-top-color: #FFFFFF;
+border-bottom-style: solid;
+border-top-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+background-color: transparent;
+outline: none;
+font-size: 19px;
+color: #FFFFFF;
+}
+
+.but:hover {
+background-color: #FFFFFF;
+color: #212121;
+outline: none;
+opacity: .7;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-color: #FFFFFF;
+border-left-color: #FFFFFF;
+border-right-color: #FFFFFF;
+border-top-color: #FFFFFF;
+border-bottom-style: solid;
+border-top-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+}
+
+.or {
+position: absolute;
+left: 48%;
+top: 40%;
+color: #FFFFFF;
+font-size: 20px;
+}
+
+.line1 {
+position: absolute;
+left: 15px;
+top: 42%;
+background-color: #FFFFFF;
+color: transparent;
+line-height: 2px;
+width: 40%;
+}
+
+.line2 {
+position: absolute;
+right: 15px;
+top: 42%;
+background-color: #FFFFFF;
+color: transparent;
+line-height: 2px;
+width: 40%;
+}
+
+.cre2 {
+position: absolute;
+left: 10%;
+width: 78.5%;
+top: 46%;
+height: 44px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-color: #FFFFFF;
+border-left-color: #FFFFFF;
+border-right-color: #FFFFFF;
+border-top-color: #FFFFFF;
+border-bottom-style: solid;
+border-top-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+outline: none;
+color: #212121;
+background-color: #FFFFFF;
+font-size: 20px;
+}
+
+.cre2:hover {
+background-color: #212121;
+color: #FFFFFF;
+outline: none;
+opacity: .7;
+font-size: 21px;
+}
+
+.bb {
+position: absolute;
+left: 5px;
+right: 5px;
+height: 60%;
+color: transparent;
+background-color: #212121;
+top: 2.8%;
+border-radius: 30px;
+opacity: .8;
+}
+
+.too {
+position: absolute;
+left: 25%;
+top: 68%;
+font-weight: 300;
+font-size: 14px;
+color: #616161;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #616161;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
+.n3 {
+position: absolute; 
+left: 0%;
+top: 92%;
+background-color: #212121;
+opacity: .9;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+height: 21px;
+text-align: center;
+}

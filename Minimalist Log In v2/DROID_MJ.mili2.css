@@ -1,0 +1,257 @@
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+font-family: DROID_MJAlternatesMedium;
+src: url("DROID_MJAlternatesMedium.ttf")
+}
+
+@font-face {
+font-family: DROID_MJRegular;
+src: url("DROID_MJRegular.ttf")
+}
+
+@font-face {
+font-family: DROID_MJMedium;
+src: url("DROID_MJMedium.ttf")
+}
+
+
+body {
+background-image: url("file:///storage/928A-1714/.DROID_MJ/HTML%20Template%20Project/Minimalist%20Log%20In%20v2/p33.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+backface-visibility:visible;
+}
+
+.head {
+position: absolute;
+left: 5px;
+top: 10px;
+font-size: 35px;
+font-weight: 500;
+font-family: DROID_MJAlternatesMedium;
+color: #ffffff;
+background-color: transparent;
+}
+
+.new {
+position: absolute;
+right: 5px;
+top: 10px;
+height: 30px;
+background-color: transparent;
+border-radius: 3px;
+border: 1px solid #fff;
+outline: none;
+}
+
+.new:hover {
+background-color: #212121;
+opacity: .7;
+border: 1px solid #fff;
+border-radius: 3px;
+color: red;
+outline: none;
+}
+
+.new:active {
+background-color: #212121;
+opacity: .7;
+border: 1px solid #fff;
+border-radius: 3px;
+color: red;
+outline: none;
+}
+
+.email {
+position: absolute;
+left: 9%;
+width: 80%;
+height: 45px;
+top: 20%;
+outline: none;
+background-color: transparent;
+color: #ffffff;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-bottom-color: #ffffff;
+border-top-color: transparent;
+border-left-color: #ffffff;
+border-right-color: #ffffff;
+text-align: center;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+font-size: 15.5px;
+font-weight: 600;
+}
+
+.top {
+position: absolute;
+left: 33.5%;
+font-size: 18px;
+color: #ffffff;
+background-color: transparent;
+font-weight: 600;
+top: 18.1%;
+}
+
+.line {
+position: absolute;
+color: transparent;
+height: 2px;
+width: 21%;
+right: 10%;
+top: 20%;
+background-color: #ffffff;
+}
+
+.line1 {
+position: absolute;
+color: transparent;
+height: 2px;
+width: 23%;
+left: 9%;
+top: 20%;
+background-color: #ffffff;
+}
+
+.show {
+position: absolute;
+left: 38.5%;
+font-size: 18px;
+color: #ffffff;
+background-color: transparent;
+font-weight: 600;
+top: 32%;
+}
+
+.password {
+position: absolute;
+left: 9%;
+width: 80%;
+height: 45px;
+top: 34%;
+outline: none;
+background-color: transparent;
+text-align: center;
+color: #ffffff;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-bottom-color: #ffffff;
+border-top-color: transparent;
+border-left-color: #ffffff;
+border-right-color: #ffffff;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+font-size: 15.5px;
+font-weight: 600;
+}
+
+.line3 {
+position: absolute;
+color: transparent;
+height: 2px;
+width: 29%;
+right: 10%;
+top: 34%;
+background-color: #ffffff;
+}
+
+.line4 {
+position: absolute;
+color: transparent;
+height: 2px;
+width: 27.6%;
+left: 9%;
+top: 34%;
+background-color: #ffffff;
+}
+
+.login {
+position: absolute;
+left: 38%;
+width: 22%;
+height: 40px;
+top: 47%;
+background-color: #4285F4;
+border: 2px solid #4285F4;
+color: #ffffff;
+font-size: 17px;
+font-weight: 400;
+outline: none;
+border-radius: 2px;
+}
+
+.login:hover {
+background-color: #212121;
+border: 2px solid #fff;
+opacity: .7;
+outline: none;
+}
+
+.line5 {
+position: absolute;
+color: transparent;
+height: 2px;
+width: 30%;
+right: 20px;
+top: 51%;
+background-color: #ffffff;
+}
+
+.line6 {
+position: absolute;
+color: transparent;
+height: 2px;
+width: 29%;
+left: 20px;
+top: 51%;
+background-color: #ffffff;
+}
+
+.bg {
+position: absolute;
+left: 5px;
+right: 5px;
+height: 48%;
+top: 15%;
+color: transparent;
+background-color: #212121;
+opacity: .7;
+border-radius: 10px;
+}
+
+.foo {
+position: absolute;
+left: 8px;
+top: 75%;
+}
+
+.he {
+position: absolute;
+left: 8px;
+top: 82%;
+}
